@@ -1,0 +1,72 @@
+# Dependencias
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Directorios de compilación
+/dist
+/build
+/out
+/.next
+/.nuxt
+
+# Archivos de caché
+.cache/
+.parcel-cache/
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Archivos de cobertura de pruebas
+coverage/
+.nyc_output/
+
+# Archivos de logs
+logs/
+*.log
+
+# Archivos de base de datos locales
+*.sqlite
+*.sqlite3
+*.db
+
+# Archivos multimedia y de datos que podrían ser grandes
+*.mp3
+*.mp4
+*.wav
+*.mov
+*.avi
+*.webm
+
+# Archivos específicos de WhatsApp
+tokens/
+session/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Otros archivos que no deberían rastrearse
+*.bak
+*.tmp
+*.temp
+.vercel
+
+# Archivos de información de la aplicación
+auth/
+auth_info_baileys.json
+auth_info.json
+auth_info.json.bak

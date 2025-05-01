@@ -1,0 +1,30 @@
+{
+  "name": "whatsappbaileys",
+  "version": "1.0.0",
+  "description": "Este módulo proporciona una implementación lista para usar de la conexión a WhatsApp utilizando la biblioteca [Baileys](https://github.com/WhiskeySockets/Baileys). Está diseñado para ser fácilmente integrado en cualquier aplicación Node.js.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
